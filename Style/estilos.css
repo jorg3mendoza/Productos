@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; /* Asegurarse de que la fila ocupe todo el ancho */
+  }
+  
+  .card {
+    flex:25%; /* Ocupa el 25% del ancho total, creando 4 columnas */
+    height: 700px; 
+    box-sizing: border-box; /*Incluye el padding y border en el cálculo del ancho*/
+  }
+
+  .card-img-top {
+    height: 400px;
+    
+  }
